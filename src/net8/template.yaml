@@ -36,7 +36,7 @@ Resources:
         - DynamoDBReadPolicy:
             TableName:
               !Ref Table
-			  
+
 Outputs:
   ApiUrl:
     Description: "API Gateway endpoint URL"
